@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+
+/*---------------------------*/
+.App {
+  text-align: center;
+}
+
+.App-header .Navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*---nav bar section*/
+
+.status {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline;
+}
+
+.logoName {
+  padding-top: 5px;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 48px;
+
+  color: black;
+  margin-right: 30px;
+}
+/*--------------------------*/
+
+.homeTitle h1 {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  border-top: 2px solid rgb(2, 2, 104);
+  border-bottom: 2px solid rgb(2, 2, 104);
+  color: wheat;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown {
+  text-align: center;
+  width: 100%;
+  background-color: aqua;
+  border-bottom: 1px solid rgb(0, 44, 190);
+}
+
+/*style instruction page*/
+.play {
+  font-size: 20px;
+  margin: 10px 0px 50px 300px;
+  text-align: left;
+  align-content: center;
+  justify-content: center;
+}

@@ -1,0 +1,37 @@
+/* container for the cards*/
+.flip-container {
+  perspective: 1000px;
+  display: inline-block;
+  border: 1px solid white;
+  background: rgb(20, 3, 39);
+}
+
+/*below is for the animation of the cards*/
+.flip-container.flipped .flipper {
+  transform: rotateY(180deg);
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/*style for the back side of the card*/
+.back {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+/*style for the front side of the card*/
+.front {
+  transform: rotateY(180deg);
+}
